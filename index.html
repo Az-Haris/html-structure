@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Layout</title>
+
+    <!-- Stylesheet -->
+    <style>
+        header{
+            text-align: center;
+            font-size: 30px;
+        }
+        .logo{
+            float: left;
+            border: 1px solid black;
+            padding: 40px 0;
+            width: 20%;
+        }
+        .name{
+            border: 1px solid black;
+            padding: 40px 0;
+        }
+
+        nav{
+            text-align: center;
+        }
+        .navigation{
+            float: left;
+            border: 1px solid black;
+            padding: 10px 0;
+            width: calc(20% - 2px);
+            font-size: 20px;
+        }
+
+        marquee{
+            border: 1px solid black;
+            padding: 10px 0;
+            display: block;
+        }
+        
+        .main-content{
+            text-align: center;
+            padding: 100px 0;
+            font-size: 36px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo</div>
+        <div class="name"><b><i>Trust University,</i></b> Barishal</div>
+    </header>
+    <nav>
+        <div class="navigation">Home</div>
+        <div class="navigation">Academic</div>
+        <div class="navigation">Administrative</div>
+        <div class="navigation">Admission</div>
+        <div class="navigation">Contact Us</div>
+    </nav>
+    <marquee behavior="" direction="">Latest News</marquee>
+    <main class="main-content">
+        Main Content
+    </main>
+</body>
+</html>
